@@ -1,0 +1,21 @@
+# Scripts Bash Básicos
+
+Este repositorio contiene una colección de scripts en Bash diseñados para tareas comunes en la línea de comandos. 
+
+## Contenido
+
+- `0-current_working_directory`: Imprime la ruta absoluta del directorio actual.
+- Otros scripts para manejo de archivos, directorios y procesos.
+
+## Uso
+
+1. Da permisos de ejecución a los scripts:
+
+   ```bash
+   chmod +x nombre_del_script.sh
+Ejecuta el script:
+
+bash
+Copiar código
+./nombre_del_script.sh
+Requisitos
