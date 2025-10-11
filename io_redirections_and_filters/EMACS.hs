@@ -9,5 +9,4 @@ if [ -e "$fname" ]; then
 fi
 printf '%s\n' '#!/bin/bash' > "$fname"
 chmod +x "$fname"
-editor=${EDITOR:-nano}
-"$editor" "$fname"
+emacs "$fname"
